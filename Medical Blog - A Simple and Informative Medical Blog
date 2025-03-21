@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدونة طبية</title>
+    <style>
+        body { font-family: Arial, sans-serif; direction: rtl; text-align: right; margin: 0; padding: 0; }
+        header { background: #0077b6; color: white; padding: 15px; text-align: center; }
+        nav { background: #023e8a; padding: 10px; text-align: center; }
+        nav a { color: white; text-decoration: none; margin: 10px; }
+        .container { padding: 20px; }
+        .article { background: #f1f1f1; padding: 15px; margin-bottom: 10px; border-radius: 5px; }
+        footer { background: #0077b6; color: white; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>مدونتي الطبية</h1>
+    </header>
+    <nav>
+        <a href="#">الرئيسية</a>
+        <a href="#">المقالات</a>
+        <a href="#">من أنا</a>
+        <a href="#">اتصل بي</a>
+    </nav>
+    <div class="container">
+        <div class="article">
+            <h2>عنوان المقال الأول</h2>
+            <p>هذا نص تجريبي لمقال طبي يمكن استبداله لاحقًا بمحتوى حقيقي.</p>
+        </div>
+        <div class="article">
+            <h2>عنوان المقال الثاني</h2>
+            <p>مقال آخر عن موضوع طبي مفيد.</p>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 جميع الحقوق محفوظة
+    </footer>
+</body>
+</html>
